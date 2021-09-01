@@ -1,0 +1,117 @@
+<html>
+	<head>
+		<style>
+			#navig{
+				height:60px;
+				background:red;
+				
+				
+			}
+			
+			#tablenavi{
+				margin:auto;
+				height:100%;
+				
+			}
+			
+			.menu{
+				padding:0px 12px 0px;
+				text-decoration:none;
+				color:white;
+				
+			}
+			
+			#tablenavi th:hover{
+				background:darkred;
+				cursor:pointer;
+			}
+			
+			#loginform{
+				width:80%;
+				box-shadow: 0px 0px 5px blue;
+				margin:auto;
+				margin-top:15px;
+				padding:15px;
+				border-radius:50px 0px 50px 0px;
+			}
+			
+			#logintable{
+				margin:auto;
+				padding:15px;
+				margin-top:15px;
+				margin-bottom:15px;
+				border:10px outset blue;
+				
+				border-radius:15px;
+				width:40%;
+			}
+			
+			#logintable tr{
+				height:50px;
+			}
+			
+			#logintable input{
+				height:30px;
+				width:80%;
+			}
+			
+			#loginbtn{
+				background:lightpink;
+				border:none;
+				padding:10px 15px 10px;
+				border-radius:5px;
+				font-weight:bold;
+			}
+			
+			#loginbtn:hover{
+				background:lightgrey;
+				cursor:pointer;
+			}
+			
+			#thlogin{
+				font-size:25px;
+				color:orange;
+			}
+			
+		</style>
+	</head>
+	<body bgcolor="#f8f8f8">
+		<div id="navig">
+		
+			<table id="tablenavi">
+				<tr>
+					<th> <a class="menu" href="home.html">Home</a></th>
+					<th> <a class="menu" href="form1.html">Form1</a></th>
+					<th> <a class="menu" href="form2.html">Form2</a></th>
+					<th> <a class="menu" href="form3.html">Form3</a></th>
+					<th> <a class="menu" href="form4.html">Form4</a></th>
+					<th> <a class="menu" href="form5.html">Form5</a></th>
+					<th> <a class="menu" href="form6.html">Form6</a></th>
+					<th> <a class="menu" href="form7.html">Form7</a></th>
+					<th> <a class="menu" href="form8.html">Form8</a></th>
+				</tr>
+			</table>
+		
+	</div>
+			<form id="loginform">
+				<table id="logintable">
+					<tr>
+						<th colspan="2"><h3 id="thlogin">Login Form </h3></th>
+					</tr>
+					<tr>
+						<th>e-Mail</th>
+						<td><input type="text" placeholder="Ennter emailid"></td>
+					</tr>
+					<tr>
+						<th>Password</th>
+						<td><input type="password" placeholder="Ennter Password"></td>
+					</tr>
+					<tr>
+						<th colspan="2">
+							<button id="loginbtn" type="submit">Login</button>
+						</th>
+					</tr>
+				</table>
+			</form>
+	</body>
+</html>

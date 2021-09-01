@@ -1,0 +1,163 @@
+<html>
+	<head>
+		<style>
+			#div1{
+				background:red;
+			}
+			
+			#menutable{
+				margin:auto;
+			}
+			
+			#menutable th{
+				height:50px;
+			}
+			
+			#menutable a{
+				padding:0px 15px 0px;
+				color:white;
+				text-decoration:none;
+			}
+			
+			#menutable th:hover{
+				background:darkred;
+				cursor:pointer;
+			}
+			
+			#userlist{
+				margin:auto;
+				padding:15px;
+				box-shadow:0px 0px 10px grey;
+			}
+			
+			#userlist th, td{
+				padding:12px;
+				border:2px solid grey;
+			}
+			
+			#userlist h3{
+				text-shadow:0px 0px 5px green;
+				font-size:25px;
+			}
+			
+			#pagination{
+				margin:auto;
+				
+				padding:15px;
+			}
+			
+			#pagination u{
+				padding:0px 10px 0px;
+				color:white;
+				margin:3px;
+				
+			}
+			
+			#pagination th{
+				background:green;
+				padding:3px;
+				border-radius:5px;
+			}
+			
+			#pagination th:hover{
+				background:darkgreen;
+				cursor:pointer;
+			}
+			
+		</style>
+	</head>
+
+	<body >
+		<div id="div1">
+			<table id="menutable">
+				<tr>
+					<th> <a href="home.html">Home</a></th>
+					<th> <a href="form1.html">Form1</a></th>
+					<th> <a href="form2.html">Form2</a></th>
+					<th> <a href="form3.html">Form3</a></th>
+					<th> <a href="form4.html">Form4</a></th>
+					<th> <a href="form5.html">Form5</a></th>
+					<th> <a href="form6.html">Form6</a></th>
+					<th> <a href="form7.html">Form7</a></th>
+					<th> <a href="form8.html">Form8</a></th>
+				</tr>
+			</table>
+		</div>
+		  <table id="userlist">
+			<caption><h3> Manage User </h3></caption>
+			<tr bgcolor="skyblue">
+				<th>Name</th>
+				<th>Contact No</th>
+				<th>Age</th>
+				<th>City</th>
+				<th colspan="2">Pincode</th>
+			</tr>
+			<tr bgcolor="pink">
+				<td><input type="text" size="10"></td>
+				<td><input type="text" size="10"></td>
+				<td><input type="text" size="10"></td>
+				<td>
+					<select>
+						<option>City</option>
+						<option>Bangalore</option>
+						<option>Pune</option>
+					</select>
+				</td>
+				<td colspan="2">
+					<input type="text" size="10">  
+					<button>Save</button> 
+					<button>Clear</button>  
+				</td>
+			</tr>
+			<tr>
+				<td>Mr Abc</td>
+				<td>88888888</td>
+				<td>10 years</td>
+				<td>Delhi</td>
+				<td>8787656</td>
+				<td><u>Delete</u></td>
+			</tr>
+			
+			<tr>
+				<td>Mr aaaaa</td>
+				<td>5656565</td>
+				<td>15 years</td>
+				<td>Pune</td>
+				<td>33333</td>
+				<td><u>Delete</u></td>
+			</tr>
+			
+			<tr>
+				<td>Mr bbbbbbb</td>
+				<td>5656565</td>
+				<td>33 years</td>
+				<td>Chennai</td>
+				<td>33333</td>
+				<td><u>Delete</u></td>
+			</tr>
+			
+			<tr>
+				<td>Mr cccccc </td>
+				<td>5656565</td>
+				<td>33 years</td>
+				<td>Chennai</td>
+				<td>33333</td>
+				<td><u>Delete</u></td>
+			</tr>
+		  </table>
+		  
+		  <table id="pagination">
+				<tr>
+					<th>	<u><< First</u>	</th>
+					<th>	<u>1</u>		</th>
+					<th>	<u>2</u>		</th>
+					<th>	<u>3</u>		</th>
+					<th>	<u>4</u>		</th>
+					<th>	<u>5</u>		</th>
+					<th>	<u>Last >></u>	</th>
+				</tr>
+		  </table>
+	</body>
+</html>
+
+

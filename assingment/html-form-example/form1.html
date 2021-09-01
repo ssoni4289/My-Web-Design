@@ -1,0 +1,132 @@
+<html>
+	<head>
+		<style>
+			#div1{
+				background:red;
+				padding:10px;
+				
+			}
+			
+			#navi{
+				margin:auto;
+				padding:10px;
+				
+			}
+			
+			.menu{
+				padding:15px;
+				
+				text-decoration:none;
+				font-weight:bold;
+				color:white;
+			}
+			
+			.menu1:hover{
+				background:darkred;
+			}
+			
+			#enquiry{
+				margin:auto;
+				box-shadow:0px 0px 10px green;
+				width:750px;
+				border-radius:40px;
+			}
+			
+			#input{
+				height:70px;
+			}
+			
+			#title{
+				color:blue;
+			}
+			
+			.inputbox{
+				height:35px;
+				width:90%;
+			}
+			
+			.big{
+				height:90px;
+				resize:none;
+			}
+			
+			#btn{
+				padding:10px;
+				background:green;
+				border:none;
+				color:white;
+				margin:10px;
+				border-radius:5px;
+			}
+			
+			#btn:hover{
+				background:darkgreen;
+				cursor:pointer;
+			}
+			
+		</style>
+	</head>
+	<body>
+	<hr color="red" size="1">
+		<div id="div1">
+			<table id="navi">
+				<tr>
+					<th> <a class="menu menu1" href="home.html">Home</a></th>
+					<th> <a class="menu menu1" href="form1.html">Form1</a></th>
+					<th> <a class="menu menu1" href="form2.html">Form2</a></th>
+					<th> <a class="menu menu1" href="form3.html">Form3</a></th>
+					<th> <a class="menu menu1" href="form4.html">Form4</a></th>
+					<th> <a class="menu menu1" href="form5.html">Form5</a></th>
+					<th> <a class="menu menu1" href="form6.html">Form6</a></th>
+					<th> <a class="menu menu1" href="form7.html">Form7</a></th>
+					<th> <a class="menu menu1" href="form8.html">Form8</a></th>
+				</tr>
+			</table>
+		</div>
+		<hr color="green" size="1">
+		<form>
+			<table id="enquiry">
+				<caption> <h3 id="title">Form 1 </h3> </caption>
+				
+				<tr id="input">
+					<th>Full Name</th>
+					<td> <input class="inputbox" type="text" placeholder="Enter name"> </td>
+					
+					<th>Mobile No</th>
+					<td> <input class="inputbox" type="text" placeholder="Enter mobile No"> </td>
+				</tr><!--tr 1 end-->
+				
+				<tr id="input">
+					<th>e-Mail</th>
+					<td> <input class="inputbox" type="text" placeholder="Enter emailid"> </td>
+					
+					<th>City</th>
+					<td> 
+						<select class="inputbox">
+							<option value="">Choose City</option>
+							<option value="1">Bangalore</option>
+							<option value="2">Mumbai</option>
+							<option value="3">Delhi</option>
+							<option value="4">Pune</option>
+						</select>
+					</td>
+				</tr id="input">
+				
+				<tr id="input">
+					<th>Message</th>
+					<td colspan="3">
+					   <textarea class="inputbox big" cols="65" rows="5" placeholder="Enter Message"></textarea>
+					</td>
+				</tr>
+				<tr id="input">
+					<th colspan="4">
+						<button id="btn" type="submit">Send Message</button>
+						<button id="btn" type="reset">Clear</button>
+					</th>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
+
+

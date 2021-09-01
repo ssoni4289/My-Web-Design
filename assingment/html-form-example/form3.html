@@ -1,0 +1,126 @@
+<html>
+	<head>
+		<style>
+			#navig{
+				height:60px;
+				background:red;
+				
+			}
+			
+			#tablenavi{
+				margin:auto;
+				height:100%;
+				
+			}
+			
+			.menu{
+				padding:0px 12px 0px;
+				text-decoration:none;
+				color:white;
+				
+			}
+			
+			#tablenavi th:hover{
+				background:darkred;
+				cursor:pointer;
+			}
+			
+			#regform{
+				width:80%;
+				box-shadow: 0px 0px 5px brown;
+				margin:auto;
+				margin-top:15px;
+				padding:15px;
+				border-radius:0px 50px 0px 50px;
+			}
+			
+			#regtable{
+				margin:auto;
+				padding:15px;
+				margin-top:15px;
+				margin-bottom:15px;
+				border:10px outset blue;
+				height:400px;
+				border-radius:15px;
+			}
+			
+			#regtable tr{
+				height:50px;
+			}
+			
+			#regtable input{
+				height:30px;
+			}
+			
+			#regbtn{
+				background:lightpink;
+				border:none;
+				padding:10px;
+				border-radius:5px;
+				
+			}
+			
+			#regbtn:hover{
+				background:lightgrey;
+				cursor:pointer;
+			}
+			
+			#threg{
+				font-size:25px;
+				color:white;
+			}
+			
+		</style>
+	</head>
+	<body bgcolor="#f8f8f8">
+	<div id="navig">
+		
+			<table id="tablenavi">
+				<tr>
+					<th> <a class="menu" href="home.html">Home</a></th>
+					<th> <a class="menu" href="form1.html">Form1</a></th>
+					<th> <a class="menu" href="form2.html">Form2</a></th>
+					<th> <a class="menu" href="form3.html">Form3</a></th>
+					<th> <a class="menu" href="form4.html">Form4</a></th>
+					<th> <a class="menu" href="form5.html">Form5</a></th>
+					<th> <a class="menu" href="form6.html">Form6</a></th>
+					<th> <a class="menu" href="form7.html">Form7</a></th>
+					<th> <a class="menu" href="form8.html">Form8</a></th>
+				</tr>
+			</table>
+		
+	</div>
+		<form id="regform">
+			<table id="regtable">
+				
+				<tr bgcolor="grey">
+					<th id="threg" colspan="2">Register here</th>
+				</tr>
+				
+				<tr>
+					<th> <input type="text" placeholder="First Name"></th>
+					<th> <input type="text" placeholder="Last Name"></th>
+				</tr><!--row end-->
+				
+				<tr>
+					<th colspan="2">
+						<input type="text" size="47" placeholder="e-Mail Id">
+					</th>
+				</tr><!--row end-->
+				
+				<tr>
+					<th> <input type="password" placeholder="New Password"></th>
+					<th> <input type="password" placeholder="Confirm Password"></th>
+				</tr>
+				<tr bgcolor="green">
+					<th colspan="2">
+						<button id="regbtn" type="submit">Register</button>
+					</th>
+				</tr><!--row end-->
+			</table>
+		</form>
+	</body>
+</html>
+
+
+

@@ -1,0 +1,89 @@
+<html>
+	<body>
+		<table align="center" cellpadding="10" border="1">
+			<caption><h1>Table colspan example</h1></caption>
+			<tr>
+				<th>Sl No</th>
+				<th>Item name</th>
+				<th>Price</th>
+				<th>Quantity</th>
+				<th>Total price</th>
+			</tr>
+			<tr>
+				<td>01</td>
+				<td>Apple</td>
+				<td>250</td>
+				<td>2</td>
+				<td>500</td>
+				
+			</tr>
+			<tr>
+				<td>02</td>
+				<td>Mango</td>
+				<td colspan="3">100</td>
+				<!--
+				<td></td>
+				<td></td>
+				-->
+			</tr>
+			<tr>
+				<td>03</td>
+				<td>Banana</td>
+				<td>40</td>
+				<td>5</td>
+				<td>200</td>
+			</tr>
+			
+			<tr>
+				<td>04</td>
+				<td colspan="4">Mouse</td>
+			</tr>
+		</table>
+		
+		<h2 align="center">Rowspan example</h2>
+		
+		<table width="70%" border="1" align="center" cellpadding="10">
+			<tr bgcolor="red">
+				<th>Sl no</th>
+				<th>Full name</th>
+				<th>Age</th>
+				<th>Education</th>
+				<th>Passing year</th>
+			</tr>
+			<tr bgcolor="pink">
+				<td>01</td>
+				<td>Saurabh</td>
+				<td rowspan="2">25 years</td>
+				<td>Btech</td>
+				<td>2017</td>
+			</tr>
+			<tr bgcolor="orange">
+				<td>02</td>
+				<td>Ganesh</td>
+				<!-- <td>25 years</td> -->
+				<td>MBA</td>
+				<td>2018</td>
+			</tr>
+			<tr bgcolor="pink">
+				<td>03</td>
+				<td>Ravi</td>
+				<td>30 Years</td>
+				<td>Mtech</td>
+				<td rowspan="3">2015</td>
+			</tr>
+			<tr bgcolor="#abc123">
+				<td>04</td>
+				<td>Animesh</td>
+				<td>29 years</td>
+				<td>B A</td>
+				<!-- <td>2015</td> -->
+			</tr>
+			<tr bgcolor="pink">
+				<td>05</td>
+				<td>Amit</td>
+				<td>27 years</td>
+				<td>Mechanical</td>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,54 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+
+#container{
+	width:80%;
+	margin:auto;
+	text-align:center;
+}
+
+.red{
+	color:red;
+}
+
+.green{
+	color:green;
+}
+
+.blue{
+	color:blue;
+}
+
+.orange{
+	color:orange;
+}
+
+.pink{
+	color:pink;
+}
+
+.maroon{
+	color:maroon;
+}
+
+.darkblue{
+	color:darkblue;
+}
+
+.lightgreen{
+	color:lightgreen;
+}
+
+.service{
+	padding:2%;
+	margin:2%;
+	width:17%;
+	float:left;
+	border-radius:10px;
+	background:#f0f0f0;
+}
+
+
+

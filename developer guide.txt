@@ -1,0 +1,130 @@
+
+  HTML : hypertext markup language , it has collections of pre defined tags.
+  it is used to design basic structure of webpage.
+  
+  Tag : <>  - open tag
+        </>  - close tag
+		
+	Type of tags - 
+	   1. input tags - ask input from user
+	   2. output tags - display output to user
+	   
+	Behavior of html tags - 
+	   1. dependent tags - Those tags, that has open and close.
+	                       eg - <h1> </h1>
+						        <body> </body>
+	   2. independent tags - those tags that has only open.
+	                       eg - <br/>
+						        <hr/>
+								<img/>
+	   3. block level tags - those tags print statement in new line 
+       4. inline tags - print statement in same line by default.
+	   
+	   Note - responsive design - using css block level tag => inline
+	                              using css inline tag => block level
+---------------------------------------------------------------------------
+	   list of tags - 
+			h1 to h6 use to create heading of webpage , using heading 
+	tag user can understand about the contents of the page.
+	
+		rules for h1 to h6 
+		1. in every page h1 tag is required 1 time.
+		2. h2 to h6 is optional , if u are using h2 to h6 then
+		keep maximum 3 times in each page. otherwise digital 
+		marketing will not happen. google will put second priority
+		to your page.
+		
+		-----------------------------------------------------
+		
+		label - it use to display text data in web page.
+			use the label tag if text length is between 1 to 130 
+			char.
+		-----------------------------------------------------
+		
+		p - it use to display text data only but more than 130 char.
+		
+		----------------------------------------------
+		
+		type of list in html - 
+		OL - order list - numbering in ms word
+		
+		UL - unordered list - bullets in ms word
+		
+		DL - definition list
+		-----------------------------------------------
+		
+		how to link pages in html.
+			 - <a href="nextfilename" target="" title=""> text to link </a>
+			 
+				example :
+					<a href="login.html" target="_new" title="click here"> click to go </a>
+							
+					login.html
+					register.html
+
+				About properties of a tag in html - 
+					href: it need next filename to redirect
+					title: it is for user guidance
+					target: it define the location for next file to open
+						type of target - 
+							_self - it open next file in same tab.
+							_new - it open next file in new tab but only at first click.
+							_blank: it open next file in new tab but on every click.
+							
+							using frameset - 
+							_top : it link to master(main) page
+							userDefine : we can create our own target also
+							
+							using javascript -
+							_child: it open a popup window
+							_parent: will clear once start javascript
+
+
+		Table in html:
+			Structure of table:
+				->table
+					caption
+					tr - table row
+						th - table heading
+						td - table data
+				
+				List of property in table , tr, th, td
+					border
+					align - left, right, center
+					cellpadding - to apply space inside th, td
+					cellspacing - to apply space outside of th, td
+					width
+					height
+					colspan - it use to combine the space of 2 or more columns
+					rowspan - it is used to combine the space of 2 or more rows 
+					bgcolor 
+					valign - top, middle, bottom
+			------------------------------------------------------
+			List of input tags in html : 
+				1. input tags that take input in single line
+					a. textbox
+					b. number
+					c. password
+					d. email
+				
+				2. for multi line input :
+					a. textarea
+					
+				3. choose from given option
+					a. radio button
+					b. check box
+					c. select
+					
+				4. for document/file uplode
+					a. file
+
+				5. for action/for click/for submit 
+					a. submit 
+					b. reset
+					c. button 
+					
+	-----------------------------------------------------
+
+
+
+		

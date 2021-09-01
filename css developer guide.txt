@@ -1,0 +1,177 @@
+CSS - Cascading style sheet, it is used to changed the look 
+and feel of web page.
+It has collections of properties and values.
+Where html has collections of tags with limited property 
+and values.
+
+Example - 
+	<h1 align="center"> <font color="red">Hello text</font></h1>
+	
+	Css example - 
+		<h1 style="color:red; text-align:center;">Hello text</h1>
+		
+		Note - before colon is property
+				after colon is value 
+				; end the statement 
+				
+	Css property for text alignment - 
+		text-align - left, right, center, justify 
+		
+	Css 
+		height - 3 method
+				height:120px; , min-height:120px; , height:auto;
+				
+		width - 4 method
+				width:200px;
+				width:100%;
+				min-width: px/% - use to identify device size and 
+									apply responsive design
+				max-width: px/%
+		margin - it use to apply space from outside of 
+				container - from all side in +, _.
+				
+				margin:auto; align in center of page 
+				margin:20px; px gap from all side 
+				margin-left:20px; px gap from left side
+				margin-right:20px; px gap from right side
+				margin-top:20px; px gap from top side
+				margin-bottom:20px; px gap from bottom side
+				
+			in negative margin - 
+				margin-left:-20px; start from -px left side
+				margin-right:-20px; start from -px right side
+				margin-top:-20px; start from -px top side
+				margin-bottom:-20px; start from -px bottom side
+				
+				
+		-----------------------------------------------------
+		
+		Float : it use to convert from block level element to 
+				inline element.
+				
+				float:left - it arrange the container from 
+					left to right. LTR
+				float:right - rigth to left . RTL
+
+		-----------------------------------------------------
+		
+		Padding - it use to apply space inside container.
+			padding:20px; px gap from all sides. 
+			padding-top : 20px - top side
+			padding-bottom : 
+			padding-left:
+			padding-right:
+		-----------------------------------------------------
+		
+		display: it use to control the visibility of elements.
+			display:inline; it convert from block to inline.
+			display:block; inline to block
+			display:none; it hide the elements
+			
+		-----------------------------------------------------
+		
+		border - 
+			border: size style color 
+			border: 10px solid blue - all side border 
+			border-left, right, top, bottom
+
+				solid, dotted, dashed, inset, outset, groove,
+				ridge, double
+				
+		------------------------------------------------------
+		
+		box-shadow - 
+			bos-shadow:from left, from top size color 
+			example - box-shadow:5px 10px 20px red 
+		
+		background - 10+ method 
+		
+		------------------------------------------------------
+		
+		Internal CSS - 
+			it is one to many.: write one time and use it many times.
+			- to make one to many, css has given following types.
+				1. css by tag name
+				
+			example - 
+				div{
+				height:200px;
+				width:200px;
+				background:white;
+				margin:30px;
+				float:left;
+				text-align:center;
+			}
+			
+			p{
+				width:150px;
+				background:orange;
+				color:green;
+				height:100px;
+				float:left;
+				margin:20px;
+			}
+		-------------------------------------------------------		
+				
+				2. css by id - in one page one type of design 
+					required only one time then follow id.
+				
+				Example - #abc{
+				margin:1%;
+				height:100px;
+				background:blue;
+				coloe:white;
+				text-align:center;
+			}
+			
+			#xyz{
+				margin:1%;
+				height:200px;
+				width:31.33%;
+				background:pink;
+				float:left;
+				box-shadow:5px 5px 10px grey;
+			}
+			
+			abc and xyz are id 
+				
+		------------------------------------------------------		
+				3. css by class - if in page, one type of design
+					required many times then follow class 
+				
+				example - .abc{
+					margin:1%
+					float:left;
+					width:23%;
+					height:150px;
+					background:orange;
+					}
+				
+				
+				4. css by tag group
+				
+				example - 
+				h2, h1, div, p, label, b{
+				color:red;
+				font-size:30px;
+				font-weight:bold;
+			    }
+		-----------------------------------------------------
+				
+				5. css by parent and child tag 
+				
+		------------------------------------------------------
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

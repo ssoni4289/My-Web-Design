@@ -1,0 +1,60 @@
+javascript
+	-> variables and data types
+	
+	-> control structure
+		- condition
+			- if else
+			-if else if
+			-nested if 
+			-switch case
+			
+		- loop
+			- for loop 
+			- while loop 
+			- do while loop 
+			- map()
+	
+	-> function
+		1. simple function
+		2. function without name
+		3. fat arrow function
+		
+	-> data binding
+		1. type of popup window
+		2. events in js
+		3. one way data binding 
+		4. event based two way data binding 
+		
+	-> Array
+		- single dimension
+		- multi dimension
+		- nested array
+		- add , list, edit, delete
+		
+	-> web storage
+		- local storage
+		- session storage 
+		
+	-> live server
+		-import and export
+		-async and await
+		
+	-> API 
+		-fetch
+		-then
+		-read local json data 
+		-read data from server
+		-JSON parsing
+		
+	-> promise and call back
+
+	-> AJAX
+	
+	-> OOPs
+		-class object
+		-inheritance
+		-set and get
+		
+	-> form validation
+	
+	-> 200 assingments

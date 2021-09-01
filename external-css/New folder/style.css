@@ -1,0 +1,117 @@
+h1{
+	color:red;
+	text-align:center;
+}
+
+body{
+	margin:0px;
+}
+
+/* css for top navigation */
+#topnav{
+	margin:0px;
+	padding:15px;
+	background:red;
+	text-align:center;
+}
+
+#topnav li{
+	display:inline;
+	padding:15px;
+}
+
+#topnav li a{
+	color:white;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+#topnav li:hover{
+	background:black;
+}
+
+/* footer start */
+
+footer{
+	padding:20px;
+	background-color:rgb(100, 120, 140);
+	color:white;
+	min-height:120px;
+	text-align:center;
+	
+}
+
+#container{
+	min-height:500px;
+	width:80%;
+	margin:auto;
+}
+
+
+
+/* css animation start */
+
+@keyframes mybanner{
+	25%{background-image:url("2.jpg"); color:red;}
+	50%{background-image:url("3.jpg"); color:yellow;}
+	75%{background-image:url("4.jpg"); color:blue;}
+}
+
+/* banner start  */
+
+#banner{
+	height:250px;
+	padding:100px;
+	font-size:60px;
+	text-align:center;
+	background-image:url("1.jpg");
+	background-size:100%;
+	animation:mybanner;
+	animation-duration:10s;
+	animation-iteration-count:infinite;
+}
+
+#profilepic{
+	height:140px;
+	width:140px;
+	border-radius:50%;
+}
+
+.profile{
+	margin:2%;
+	padding:2%;
+	float:left;
+	width:42%;
+	box-shadow:0px 0px 10px grey;
+	border-radius:10px;
+}
+
+.profile table{
+	width:100%;
+	text-align:center;
+}
+
+.profile table tr{
+	height:45px;
+	
+}
+
+.lesswidth{
+	width:13% !important; /* to set higher priority */
+	
+}
+
+.project{
+	float:left;
+	margin:2%;
+	padding:2%;
+	width:25.33%;
+	text-align:left;
+	box-shadow:0px 0px 5px blue;
+}
+
+
+
+
+
+

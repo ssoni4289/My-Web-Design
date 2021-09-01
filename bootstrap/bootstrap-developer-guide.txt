@@ -1,0 +1,193 @@
+Bootstrap is library of css. It is also the first framework 
+of html, css, java script for resposive web page designing.
+
+Bootstrap is introduced by twitter.com in 2011.
+Bootstrap has pre-defined css classes for each design.
+Bootstrap is designed based on grid system.
+
+Grid system has devided all the devices in 5 types.
+1. Extra small :- 0px - 576px
+2. Small :- 577px - 768px
+3. Medium :- 769px - 992px
+4. Large :- 993px - 1200px
+5. Extra large :- greater than 1200px 
+
+
+Bootstrap grid system has given 12 classes for each type of 
+devices.
+
+	1. Extra small :- 0px - 576px
+		col-1,
+		col-2,
+		.
+		.
+		.
+		col-12
+		
+	2. Small :- 577px - 768px
+		col-sm-1
+		col-sm-2
+		col-sm-3
+		.
+		.
+		.
+		col-sm-12
+		
+	3. Medium :- 769px - 992px
+		col-md-1
+		col-md-2
+		.
+		.
+		.
+		col-md-12
+		
+	4. Large :- 993px - 1200px 
+		col-lg-1
+		col-lg-2
+		.
+		.
+		.
+		col-lg-12
+	
+	5. Extra Large :- more than 1200px.
+		col-xl-1
+		col-xl-2
+		.
+		.
+		.
+		col-xl-12
+		
+While designing a web page using bootstrap follow these 
+steps - 
+
+1. In head section, link to bootstrap.css file.
+2. Follow the body tag.
+3. Inside body follow these classes.
+	a. container - it has more margin from left and right
+	b. container-fluid - it has less margin from left and right
+4. Inside the container follow the class
+	a. row
+5. Inside the row, follow the columns class from given 60
+	
+Final structure - body -> container -> row -> columns(1 to 16) -> page contents	
+	
+Note: Each row follow min one cloumn and max 12 columns.	
+
+For text color - 
+	text-danger - red
+	text-success - green
+	text-info - skyblue
+	text-primary - blue
+	text-warning - yellow
+	text-white - white 
+	text-secondary - black/grey
+	
+For background - 
+	bg-danger - red
+	bg-success - green
+	bg-info - skyblue
+	bg-primary - blue
+	bg-warning - yellow
+	bg-white - white 
+	bg-secondary - grey
+	bg-dark - black
+	
+For text alignment - 
+	text-left
+	text-right
+	text-center
+	text-justify
+	
+For image - 
+	img-fluid 
+	img-thumbnail
+	rounded
+	rounded-circle
+
+For alert msg - 
+	alert
+	alert-danger 
+	alert-success
+	alert-info
+	alert-primary
+	alert-secondary
+	alert-warning
+	alert-dark
+
+For Block with header and footer - 
+	card
+		card-header
+		card-body
+		card-footer
+
+For left side navigation - 
+	list-group
+		list-group-item
+			active
+			
+For table - 
+	table
+	table-bordered
+	table-striped
+	table-sm
+	table-hover
+	
+For Button design
+	btn
+	btn btn-danger 
+	btn btn-sucess
+	btn btn-warning 
+	btn btn-info 
+	btn btn-primary 
+	btn btn-secondary 
+	btn btn-dark 
+	btn btn-light 
+	  = For button size
+		btn-sm 
+		btn-lg
+		btn-md 
+		btn-block - full width
+
+=> 1 rem = 16px
+	1 - 0.25 rem = 4px
+	2 - 0.5 rem = 8px
+	3 - 1 rem = 16px
+	4 - 1.5 rem = 24px
+	5 - 3 rem = 28px
+	
+	m- margin
+	p- padding
+	---------------
+	t- top
+	b- bottom
+	l- left 
+	r- right 
+	
+	m-1 = margin 4px all side
+	m-2 = margin 8px all side 
+	
+List of 25 classes for margin:
+
+m-1, m-2, m-3, m-4, m-5
+ml-1, ml-2, ml-3, ml-4, ml-5
+mr-1, mr-2, ...
+mt-1,mt-2, ...
+mb-1, mb-2, ...
+
+List of 25 classes for padding:
+
+p-1, p-2, p-3, p-4, p-5
+pl-1, pl-2, pl-3, pl-4, pl-5
+pr-1, pr-2, ...
+pt-1,pt-2, ...
+pb-1, pb-2, ...
+	
+For form design:
+	form-control
+	
+size : form-control-sm/md/lg
+
+
+
+
+

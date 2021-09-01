@@ -1,0 +1,231 @@
+h1{
+    color:red;
+	text-align:center;
+}
+
+body{
+	margin:0px;
+}
+
+/* css for top navigation */
+#topnav{
+	margin:0px;
+	padding:15px;
+	background:blue;
+	text-align:center;
+}
+
+#topnav li{
+	display:inline;
+	padding:15px;
+}
+
+#topnav li a{
+	color:white;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+#topnav li:hover{
+	background:black;
+}
+
+/* footer css start here */
+footer{
+	padding:20px;
+	background-color:rgb(100, 120, 140);
+	color:white;
+	min-height:120px;
+	text-align:center;
+}
+
+#container{
+	min-height:500px;
+	width:80%;
+	margin:auto;
+}
+
+/* banner css start here */
+
+/* css animation start */
+   @keyframes mybanner{
+	   25%{ background-image:url("2.jpg"); color:red; text-align:left;}
+	   50%{ background-image:url("3.jpg"); color:yellow; text-align:right;}
+	   75%{ background-image:url("4.jpg"); color:maroon; text-align:center;}
+   } 
+/* css animation end */
+
+#banner{
+	height:250px;
+	padding:100px;
+	font-size:60px;
+	text-align:center;
+	background-image:url("1.jpg");
+	background-size:100%;
+	
+	animation:mybanner;
+	animation-duration:10s;
+	animation-iteration-count:infinite;
+}
+
+#profilepic{
+	height:140px;
+	width:140px;
+	border-radius:50%;
+}
+
+.profile{
+	margin:2%;
+	padding:2%;
+	float:left;
+	width:42%;
+	box-shadow:0px 0px 2px orange;
+	border-radius:10px;
+}
+
+.profile table{
+	width:100%;
+	text-align:center;
+}
+.profile table tr{
+	height:45px;
+}
+
+.lesswidth{
+	width:14% !important; /* to set higher proprity */
+}
+
+
+.education{
+	float:left;
+	margin:2%;
+	padding:2%;
+	width:25.33%;
+	text-align:center;
+	box-shadow:0px 0px 5px grey;
+	border-radius:10px;
+	transition:border-radius 2s;
+}
+
+.education h4{
+	color:green;
+	font-size:24px;
+	text-decoration:underline;
+}
+
+.board{
+	font-weight:bold;
+	color:blue;
+}
+
+.passyear{
+	color:red;
+	font-style:italic;
+}
+
+.marks{
+	color:orange;
+	font-weight:bold;
+}
+
+.education:hover{
+	box-shadow:0px 0px 5px blue;
+	cursor:pointer;
+	border-radius:50%;
+}
+
+.exp{
+	margin:auto;
+	text-align:center;
+	width:90%;
+}
+
+thead tr{
+	background:grey;
+}
+
+tfoot tr{
+	background:pink;
+}
+
+.project{
+	float:left;
+	margin:2%;
+	padding:2%;
+	width:25.33%;
+	box-shadow:0px 0px 2px blue;
+	border-radius:5px;
+}
+
+.project:hover{
+	box-shadow:0px 0px 15px red;
+	cursor:pointer;
+}
+
+#clearblock{
+	clear:both;
+}
+
+/*media query start here. For mobile*/
+@media screen and (min-width:1px) and (max-width:650px){
+	
+	.project, .education, .profile{
+		width:92%;
+	}
+	
+	.lesswidth{
+		width:92% !important;
+	}
+	
+	#topnav{
+		text-align:left;
+		padding:10px !important;
+	}
+	
+	#topnav li{
+		display:block !important;
+		padding:10px !important;
+	}
+	
+	#banner{
+		height:150px !important; 
+		padding:75px !important;
+		font-size:30px !important;
+	}
+	
+	.exp, th, td{
+		font-size:12px !important;
+		padding:8px !important;
+	}
+	
+	.myicon{
+		width:91.5% !important;
+	}
+	
+}
+
+/*media query start here. For Tab*/
+@media screen and (min-width:651px) and (max-width:900px){
+	
+	.lesswidth, .project, .education, .profile{
+		width:42%;
+	}
+	
+	.myicon{
+		width:41.5% !important;
+	}
+}
+
+.myicon{
+	padding:2% !important;
+	margin-bottom:20px;
+	margin:2%;
+	width:25%;
+	float:left;
+}
+
+
+
+
+
+
